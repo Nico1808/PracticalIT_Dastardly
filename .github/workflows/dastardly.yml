@@ -1,7 +1,7 @@
 name: Dastardly Scan
-
+#comment 
 on:
-  push:
+  pull_request:
     branches: ["main"]
 
 jobs:
